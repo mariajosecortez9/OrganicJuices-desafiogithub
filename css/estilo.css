@@ -25,10 +25,7 @@ body{
 
    
 
-.{
-    display:inline-flex;
-    animation: float 0.5s alternate infinite;
-}
+
 @keyframes float{
     0%{ opacity: 0.8;}
    
@@ -49,23 +46,69 @@ body{
     width: 150px;
     height: 150px;
 }
-.img-thumbnail{
+.logoFooter{
     width: 150px;
     height: 150px;  
 }
+.card-title{
+    
+    color: black;
+    align-items: center;
+}
+.card-text{
+   
+    color: black;
+    align-items: center;
+
+}
+.card-img{
+    width:280px;
+    height:300px;
+}
+
+
+.imgBlancoNegro{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.img__blancoynegro{
+    margin: 5px;
+    padding:5px;
+    width: 150px;
+    height:150px;
+    object-fit: cover;   
+}
+
+.redesFooter{
+    display:flex;
+    flex-direction: row;
+    
+
+    width:30px;
+    height:30px;
+} 
+.infoAyuda{
+    display:flex;
+    flex-direction: row;
+    
+}
+
 .footer{
     font-size:1em ;
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+   
 }
 /* PROPAGANDA MODIFICACIONES CON BOOTSTRAP*/
 
 .container{
     font-size: 2em;
     justify-content: space-between;
-    border: #2c6155 solid;
+    border: #cbf6ec solid;
     
 
 }
@@ -90,12 +133,6 @@ body{
   
  
   
-.img__blancoynegro{
-    margin: 5px;
-    padding:5px;
-    width: 16%;
-    object-fit: cover;   
-}
 
  
 
