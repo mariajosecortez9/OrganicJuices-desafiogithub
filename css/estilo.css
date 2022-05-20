@@ -23,98 +23,9 @@ body{
 }
 
 
-.header{
-  background:rgb(188, 200, 195);
-  color:black;
-  padding:10px;
-  width:100%;
-  top:0;
-  flex-wrap: nowrap;
+   
 
-}
-
-
-
-  
-.footer__piedepagina{
-    background:rgb(188, 200, 195);
-       width:100%; 
-       display:flex;
-       flex-direction: row; 
-       justify-content:space-between;
-       align-items: center;
-}
-
-  
-  
-.infoyayuda{
-       margin: 20px;
-       padding:20px;
-       color: black;
-       text-align: right;
-       text-decoration: underline;
-       text-align: justify;
-       justify-content:flex-end;
-       font-size:1.5em;
-       align-content: end;    
-}
-  
-.info__ayuda{
-      color: black;
-       text-align: right;
-       text-decoration:uppercase;
-       text-align: justify;
-       justify-content:flex-end;
-       font-size: 1.2em;
-       align-content:end;
-       
-}
-
-.info__ayuda__enlace{
-  
-      color: black;
-      text-align: right;
-      text-decoration:uppercase;
-      text-align: justify;
-      justify-content:flex-end;
-      font-size: medium;
-      align-items: end;
-      
-}
-.listaFooter{
-       color: black;
-       text-align: right;
-       
-}
-.logo__footer{
-      letter-spacing:normal;
-     font-size: large;
-     color: black;
-     text-decoration: none;
-     text-align: left;
-     justify-content: flex-start; 
-}
-.seguinos{
-       color: black;
-       text-align: center;
-      align-items:center;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      
-       
-}
-.redes__footer{
-    width:10%;
-    height:10%;
-    display:flex;
-    flex-direction: row;
-     justify-content:center;
-     flex-wrap: nowrap; 
-}
-
-
-.propaganda__section{
+.{
     display:inline-flex;
     animation: float 0.5s alternate infinite;
 }
@@ -123,228 +34,61 @@ body{
    
     100%{opacity:0;}
 }
-#logo{
-    width: 10%;
-    height: 10%;
-    margin: 5px;
-    padding:5px;
+
+
+
+/* INDEX MODIFICACIONES CON BOOTSTRAP*/
+.navbar-nav{
+    font-size: 3em;
+    margin: 1em;
+}
+.container-fluid{
+    background-color: rgb(204, 229, 218);
+}
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+}
+.img-thumbnail{
+    width: 150px;
+    height: 150px;  
+}
+.footer{
+    font-size:1em ;
+    color: black;
     display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   object-fit: cover;
-  
-   
-  }
-  .logoFooter{
-      width: 30%;
-      height: 30%;
-      margin: 5px;
-      padding:5px;
-      display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* PROPAGANDA MODIFICACIONES CON BOOTSTRAP*/
+
+.container{
+    font-size: 2em;
+    justify-content: space-between;
+    border: #2c6155 solid;
     
-  
-  }
-  
-  
-  .cabezera{
-      color: black;
-      text-decoration: none;
-      display:flex;
-      justify-content: space-between flex-end;
-      align-items: center;
-      font-size:1.5em;
-      text-decoration: none;
-  
-  }
-  .cabezera__indices:hover{
-      background-color: rgb(235, 246, 241);
 
-  }
-  .cabezera__indices{
-      
-      padding: 3px;
-      margin: 3px;
-      text-decoration: none;
-      color: black;
-      text-transform: uppercase;
-      font-weight: bold;
-  }
-
-/* GRID INDEX*/
-.gridBodyIndex{
-    display:grid;
-    grid-template-rows:0.5fr, 2fr, 1fr, 0.2fr , 0.5fr; 
-    grid-template-columns: 1fr , 1fr ,1fr ;
-    margin: 0 auto;
-    width:100%;
-    justify-items: stretch;
-    grid-template-areas:
-    " header header header"
-    " productos productos productos"
-    " publicidad publicidad publicidad"
-    "logos logos logos"
-    "footer footer footer"
-      
-    
-}
-.gridHeader{
-    grid-area: header;
- justify-content:center;
-
-}
-.gridProductos{
-    grid-area: productos;
-    justify-content:center;
-}
-
-.gridPublicidad{
-    grid-area:publicidad;
-    
-}
-
-.gridLogos{
-    grid-area:logos;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-
-}
-.gridFooter{
-    grid-area:footer;
 }
 
 
+/* A PARTIR DE ACA REHACER*/
+  
+
+
+
+
 
 
   
   
-  .container__nav{
-      display:flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem, 1rem;
-      margin: 2rem;
-  }
   
-  .foto1{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      object-fit: cover;
+
   
-  }
   
-  .foto__principal{
-    
-    margin: 10px;
-      padding:10px;
-      border:2px solid white;
-     width:100%;
-     height: 80vh;
-     display:flex center;
-    object-fit: cover;
-    
-  }  
   
-  .texto__encabezado{
-      margin: 10px;
-      padding:20px;
-      font-size:1.5em;
-      color: black;
-      text-transform: uppercase;
-      letter-spacing:normal;
-      text-align: center;
-      
-  }
-  .propaganda__section{
-      font-size:large;
-      font-weight: bold;
-      color: black;
-      background-color: rgb(152, 189, 180);
-      text-transform: uppercase;
-      display: flex;
-      flex-direction: column;
-      justify-content:center;
-     flex-wrap: nowrap;
-  }
-  .propaganda__section__dosporuno{
-      margin:5px;
-      padding:5px;
-      justify-content:center;
-      line-height: 0.5cm;
-      text-align: center;
-  }
-  .propaganda__texto{
-      margin: 10px;
-      padding:10px;
-      font-size:large;
-      color: black;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      text-align: justify;
-      
-  }  
-  .propaganda__texto__titulo{
-      margin: 5px;
-      padding: 5px;
-      font-size:large;
-      color: black;
-      text-transform: uppercase;
-      text-align: center;
-      display:flex;
-      flex-direction: column;
-      justify-content:center; 
-  }   
-  .propaganda__texto__parrafo{
-      margin: 5px;
-      padding: 5px;
-      font-size:large;
-      color: black;
-      text-align: justify;
-      display:flex;
-      flex-direction: column;
-      justify-content: start center; 
-    
-  }
   
-  .propaganda{
-      display: flex;
-      flex-direction: row;
-      justify-content:flex-end;
-      border-color: rgb(84, 191, 164);
-      border: solid, 3px;
-      
-  }
   
-  .video{ 
-       font-size: small;
-      color: black;
-      width: 500px;
-      text-align: right;
-      display: flex;
-      flex-direction: row;
-      justify-content:flex-end;
-      margin:10px;
-      padding:10px;
-      margin-bottom: 20px;
-      background-color: white;
-      flex-wrap: nowrap;
-      
-  
-  }
-  .pro__section{
-      font-size: small;
-      color: black;
-      flex-direction: right;
-      justify-content:flex-end;
-      width: 400px;
-      text-align: right;
-     
-  
-  }
+ 
   
 .img__blancoynegro{
     margin: 5px;
@@ -386,14 +130,19 @@ body{
     grid-area:footer;
 }
 
-.titulo__nosotros{
-    font-size:xx-large;
-    color: black;
-    text-align: justify;
-    letter-spacing:normal;
-    margin: 10px;
-    padding:10px;
+.card-title{
+    margin: 5px;
+    padding:5px;
+    font-size: 3em;
+    
 }
+.card-text{
+    font-size: 2em;
+    line-height: 1cm;
+    text-align: justify;
+
+}
+
 .imgnosotros{
     display:flex;
     height:100vh;
@@ -401,31 +150,8 @@ body{
     padding:10px;
 }
 
-.imagen__nosotros{
-    padding:10px;
-    border:2px solid white;
-    width:50%;
-}
-.titulonos{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
 
-}
-.texto__nosotros{
-    margin:10px;
-    padding:10px;
-    font-size:medium;
-    color: black;
-    letter-spacing: normal;
-    text-align: justify;
-    float:left;
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1cm;
-}
+
 
 
 
@@ -501,13 +227,6 @@ body{
     text-transform: uppercase; 
 }
 
-.fotoProducto{
-    width: 500px;
-    height: 500px;
-   
-    
-
-}
 .tituloNuestrosProductos{
     font-size:x-large;
     color: black;
@@ -524,7 +243,10 @@ body{
     margin: 20px;
     padding:20px;
 }
+.carousel-inner{
+    width:400px;
 
+}
 
 /* GRID GALERIA*/
 

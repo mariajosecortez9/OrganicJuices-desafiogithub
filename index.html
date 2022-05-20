@@ -7,62 +7,93 @@
     <title>ORGANICJUICES</title>
     <link rel="shortcut icon" href="favicon.ico"> 
    <link rel="stylesheet"  href="./css/estilo.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
 </head>
-<body class="gridBodyIndex">
+<body>
 
- <div class="gridHeader">
-     <header class ="header">
-        <div class="container__nav">
-     <nav>
-      <a class="logo" href="./index.html"></a>  <img id="logo" src="./assests/logo.png" alt="logo"> 
-     </nav>   
-      
-     <nav class="cabezera">
-             <a class="cabezera__indices" href="./index.html"> Home</a> 
-             <a class="cabezera__indices"  href="./paginas/nosotros.html">Nosotros</a>
-             <a class="cabezera__indices" href="./paginas/galeria.html">Galeria</a>
-             <a class="cabezera__indices" href="./paginas/productos.html">Productos</a>
-             <a class="cabezera__indices"href="./paginas/contacto.html">Contacto</a> 
-        </nav> 
+    <header>
+        <div class="container-fluid " >
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand " href="#"></a> <img src="./assests/logo1.jpg" class="img-thumbnail" alt="img-thumbnail">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse show  d-flex flex-row justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav   ">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link" href="#">Nosotros</a>
+                          <a class="nav-link" href="#">Productos</a>
+                          <a class="nav-link" href="#">Galeria</a>
+                          <a class="nav-link" href="#">Contacto</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+        </div>
+    </div>     
      </header> 
-    </div>
+   
+     <div class="container-fluid">
+    
+     <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="./img/carruselindex/fondobody1.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carruselindex/futosrojos1.jpeg" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carruselindex/narnajas1.jpg" class="d-block w-100" alt="Slide 3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+     </div>
+     </div>
+  </div>
  
    
  
-     <div class="gridProductos" >
-      <section class="gridProductos" >
-       <div class="gridProductos">
-            <h2 class="texto__encabezado"> Nutricion real, organica, viva</h1>
-            <div class="foto1">
-            <img class="foto__principal" src="../CODERHOUSE PROYECTO/img/fondobody.jpg" alt="img1">
-       </section> 
-        </div>
- </div>
-  
-    
-
-    <div class="gridPubicidad" >
-      <section  class="gridPublicidad">
-        <aside class="propaganda">
-           
-            <div class="propaganda__texto">
-                <h2 class="propaganda__texto__titulo" >  Eat Seasonal </h2>
-                <p class="propaganda__texto__parrafo"> Mantené la armonía que tu cuerpo necesita en el Invierno,
-                 a traves de este plan especialemente pensando con la perfecta combinación de frutas, verduras y hierbas orgánicas.</p>
+    <div class="container ">
+            <div class="row">
+                <div class="col-4">
+                  <h2>Eat Seasonal </h2>  
+                  <p>Mantené la armonía que tu cuerpo necesita en el Invierno,
+                    a traves de este plan especialemente pensando con la perfecta combinación de frutas, verduras y hierbas orgánicas.<p>   
+                </div>
+                  
+                  <div class="col-4">
+                      <h2> OFERTA!  2X1</h2>
+                      <p>EN PLAN DETOX</p>       
+                   </div>
+                        
+                  <div class="col-4">
+                      <iframe src="./img/video/video.mp4" frameborder="0"></iframe>
+                  </div>
+                    
+                    
+                </div>
             </div>
-           <div class="propaganda__section">
-            <h2 class="propaganda__section__dosporuno">2x1</h2>
-           
-             <p class="propaganda__section__dosporuno">EN PLAN DETOX</p>
-            </div>
-        
-            <div class="video">
-            <iframe class="pro__section" src="../CODERHOUSE PROYECTO/img/video/video.mp4" frameborder="0"> </iframe>
-            </div>
-        </aside>
-       </section>
     </div>
+        
     
     <div class="gridLogos ">
         <img class="img__blancoynegro" src="./img/imginfoblanco ynegro/huerta biodinamica.jpg" alt="1">
@@ -72,33 +103,29 @@
         <img class="img__blancoynegro" src="./img/imginfoblanco ynegro/sin lacteos.jpg" alt="5">
 
     </div>
-
-<div class="gridFooter">
-        <footer class="footer__piedepagina">
-      
-     <div class="logoFooter"> 
-        <img class="logoFooter" src="./assests/logo.png" alt="logo">
-    </div>
-
-     <div class="seguinos"> 
-         <h2 class="seguinos">SEGUINOS</h2>
-        <a class="redes__footer" href="https://www.instagram.com/"></a> <img class="redes__footer" src="./assests/iconos/instagram_icon_125245.png" alt="">
-        <a class="redes__footer" href=https://www.facebook.com></a> <img class="redes__footer" src="./assests/iconos/facebook.png" alt="">
-        <a class="redes__footer" href="https://www.whatsapp.com/?lang=es"></a> <img class="redes__footer" src="./assests/iconos/whatsapp.png" alt="">
-    </div>  
+  <footer>
+     <div class="container-fluid">
+         <div class="row">
+         <div class="footer">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a> <img src="./assests/logo1.jpg" class="img-thumbnail" alt="img-thumbnail">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Seguinos</a>
+                      <a class="nav-link" href="#">Info y Ayuda</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+         </div>
+     </div>
+   
     
-    <div class="infoyayuda">
-         <h2 class="info__ayuda">INFO Y AYUDA</h2>
-          <ul class="info__ayuda">
-            <li class="info__ayuda__enlace"> <a href="index.html">HOME</a></li>
-            <li class="info__ayuda__enlace"><a href="contacto.html">CONTACTO</a></li>
-            <li class="info__ayuda__enlace"> <a href= "nosotros.html">NOSOTROS</a></li>
-            <li class="info__ayuda__enlace"> <a href="porqueorganicjuices.html"> PORQUEORGANICJUICE</a></li>
-            <li class="info__ayuda__enlace"><a href="productos.html"> PRODUCTOS</a></li>
-            <li class="info__ayuda__enlace"><a href="#"> Politica de devolucion</a></li>
-        </ul>
-    </div> 
-</div>  
 </footer>
 </body>
 </html>
