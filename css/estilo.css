@@ -66,34 +66,22 @@ body{
 }
 
 
-
-
-
-
-.card-img{
-    width:280px;
-    height:300px;
+.rounded {
+  width:20rem;
+  height:20rem;
+  display: flex; 
+ flex-wrap: nowrap;
 }
 
-.iconosRedondos{
-   display: flex;
-  justify-content:space-evenly;
-}
-.imgBlancoNegro{
-  display: flex;
-  
-    width: 20rem;
-    height:20rem;
-    object-fit: cover; 
-}
- 
+
 
 /* FOOTER CON BOOTSTRAP*/
 
 
 .footer{
     font-size:1em ;
-    color: black;  
+    color: black; 
+   
   
 }
 .logoFooter{
