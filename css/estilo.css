@@ -73,7 +73,13 @@ body{
  flex-wrap: nowrap;
 }
 
-
+.img-fluid-index{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    display: flex;
+  
+}
 
 /* FOOTER CON BOOTSTRAP*/
 
