@@ -1,0 +1,27 @@
+
+ .container-fluid{
+  background-color: $color-navegaciones;
+  width: $ancho-100;
+    .navbar{
+        width: $ancho-100;
+       font-size: $tamanio-fuente;
+        background-color:$color-navegaciones;
+        &:hover{ background-color: rgb(0, 0, 0);
+
+        }     
+       
+        
+        .img-thumbnail {
+           width: 10rem;
+           height: 10rem; 
+         .navbar-nav{    
+              font-size:$tamanio-fuente;
+              margin: 5px;
+              font-weight: bold;
+              &:hover{ background-color: rgb(0, 0, 0);
+
+             }     
+}
+  }
+ }
+ }

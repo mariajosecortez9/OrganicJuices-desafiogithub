@@ -1,170 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
- margin: 0;  
- padding: 0; 
- box-sizing: border-box;
-}
+.container-fluid {
+  background-color: #cce5da;
+  width: 100; }
+  .container-fluid .navbar {
+    width: 100;
+    font-size: 1.5rem;
+    background-color: #cce5da; }
+    .container-fluid .navbar:hover {
+      background-color: black; }
+    .container-fluid .navbar .img-thumbnail {
+      width: 10rem;
+      height: 10rem; }
+      .container-fluid .navbar .img-thumbnail .navbar-nav {
+        font-size: 1.5rem;
+        margin: 5px;
+        font-weight: bold; }
+        .container-fluid .navbar .img-thumbnail .navbar-nav:hover {
+          background-color: black; }
 
-html{
-  
-    font-size: 62.5%;
-    min-height: 100%;
-    position: relative;
-    overflow-x: hidden;
-}
+/* ICONOS BLANCO Y NEGRO*/
+.img-fluid-index {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  display: flex; }
 
-body{
- 
-  font-size:1.2rem;
-  margin: 0 auto ;
-  width:100vw;
-}
+/* MAIN INDEX*/
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem; }
 
+/* PUBLICIDAD INDEX */
+.publicidadIndex {
+  display: flex; }
+  .publicidadIndex .tituloPublicidad {
+    font-size: 2rem; }
+    .publicidadIndex .tituloPublicidad .detoxTexto {
+      font-size: 1.5rem;
+      text-align: justify; }
 
-   
-
-
-@keyframes float{
-    0%{ opacity: 0.8;}
-   
-    100%{opacity:0;}
-}
-
-/* INDEX PROPAGANDA*/
-.card-img-top{
-    width:40rem;
-    height:40rem;
-}
-.card-body{
-    font-size:1rem;
-   justify-content:center;
-}
-
-/* INDEX MODIFICACIONES CON BOOTSTRAP*/
-.animate__heartBeat{
-    animation-duration: infinite;
-  
-  }
-
-.h1{
-    display:flex;
-    justify-content:center;
-    font-size: 2rem;
-    
-
-}
-.navbar-nav{
-    font-size: 2rem;
-    margin: 1em;
-}
-.container-fluid{
-    background-color: rgb(204, 229, 218);
-}
-.img-thumbnail{
-    width: 150px;
-    height: 150px;
-}
-
+.card {
+  width: 50%; }
+  .card .card-img-top-fluid {
+    width: 20rem;
+    height: 20rem; }
+    .card .card-img-top-fluid .card-body {
+      justify-content: center; }
+      .card .card-img-top-fluid .card-body .card-title-index {
+        font-size: 3rem; }
+        .card .card-img-top-fluid .card-body .card-title-index .card-text-index {
+          font-size: 1.5rem; }
+          .card .card-img-top-fluid .card-body .card-title-index .card-text-index .btn {
+            align-items: center; }
 
 .rounded {
-  width:20rem;
-  height:20rem;
-  display: flex; 
- flex-wrap: nowrap;
-}
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-wrap: nowrap; }
 
-.img-fluid-index{
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
-    display: flex;
-  
-}
-
-/* FOOTER CON BOOTSTRAP*/
-
-
-.footer{
-    font-size:1em ;
-    color: black; 
-   
-  
-}
-.logoFooter{
-    width:15rem;
-    height:15rem;
-}
-
-/* TEXTO INDEX EAST BOOTSTRAP*/
-
-.container{
-    font-size: 2rem;   
-}
-
-
-/* GALERIA*/
-
-  
-.img-fluid{
-    display:inline-block;
-     flex-wrap: wrap;
-     width:40rem;
-     height:40rem;
-     object-fit: cover;
-     margin: 1rem;
-     padding:1rem;
- }
- 
-
-
-/*  NOSOTROS*/
-
-
-.card-title{
-    margin: 5px;
-    padding:5px;
-    font-size: 3em;
-    
-}
-.card-text{
-    font-size: 2em;
+/* MAIN NOSOTROS*/
+.card-title {
+  margin: 5px;
+  padding: 5px;
+  font-size: 2rem; }
+  .card-title .card-text {
+    font-size: 1.5rem;
     line-height: 1cm;
-    text-align: justify;
+    text-align: justify; }
 
-}
+/* MAIN PRODUCTOS*/
+.img-productos {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: nowrap; }
 
+/* MAIN GALERIA*/
+.img-fluid {
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  margin: 0, auto;
+  padding: 1rem; }
 
+/* MAIN CONTACTO*/
+#exampleDataList {
+  width: 50%; }
 
-/*  PRODUCTOS*/
-
-
-.img-productos{
-    width:20%;
-    height:20%;
-    object-fit: cover;
-    display: flex;
-    flex-wrap: nowrap;
-   
-}
-
-
+.mapaContacto {
+  width: 50%; }
 
 /*  PORQUE ORGANIC JUICES   */
+.img3 {
+  width: 600px;
+  height: 600px;
+  object-fit: cover; }
 
-
-.img3{
-    width:600px;
-    height:600px;
-    object-fit: cover ;
-}
-
-/*  CONTACTOS*/
-
-
-
-#exampleDataList{
-    width:50%;  
-}
-.mapaContacto{
-    width:50%;   
-}
+.navbar {
+  background-color: #cce5da;
+  width: 100; }
+  .navbar .container-fluid {
+    width: 100;
+    font-size: 1.5rem;
+    background-color: #cce5da; }
+    .navbar .container-fluid .logoFooter {
+      width: 10rem;
+      height: 10rem; }

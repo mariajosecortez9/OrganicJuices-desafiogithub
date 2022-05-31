@@ -1,0 +1,129 @@
+
+ /* ICONOS BLANCO Y NEGRO*/
+.img-fluid-index{
+    width: 10rem;
+    height:10rem;
+    object-fit: cover;
+    display: flex;
+  
+}
+   /* MAIN INDEX*/
+   
+   .h1{
+    display:flex;
+    justify-content:center;
+    font-size: $titulo-fuente;
+    
+}
+
+/* PUBLICIDAD INDEX */ 
+.publicidadIndex{
+  display: flex;
+  .tituloPublicidad{
+    font-size: $titulo-fuente;
+  ;
+
+   .detoxTexto{
+      font-size: $tamanio-fuente;
+      text-align: justify;
+
+    }              
+}
+
+}
+     
+
+.card{
+     width: 50%;
+     .card-img-top-fluid{
+         width:20rem;
+         height:20rem;
+    
+         .card-body{
+            justify-content:center;
+            
+          .card-title-index{
+           font-size: 3rem;
+        
+          .card-text-index{
+              font-size: $tamanio-fuente;
+        
+         .btn{
+             align-items: center;
+
+} 
+ } 
+
+ }
+ } 
+}
+}
+
+
+.rounded {
+  width:20rem;
+  height:20rem;
+  display: flex; 
+ flex-wrap: nowrap;
+}
+
+
+  /* MAIN NOSOTROS*/ 
+
+  .card-title{
+    margin: 5px;
+    padding:5px;
+    font-size: 2rem;
+    .card-text{
+        font-size: 1.5rem;
+        line-height: 1cm;
+        text-align: justify;
+    
+    }
+    
+}
+
+
+
+ /* MAIN PRODUCTOS*/ 
+
+ 
+ .img-productos{
+    width:20%;
+    height:20%;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+/* MAIN GALERIA*/ 
+    
+.img-fluid{
+    display:inline-block;
+     flex-wrap: wrap;
+     width:25rem;
+     height:25rem;
+     object-fit: cover;
+     margin: 0, auto;
+     padding:1rem;
+ }
+ 
+/* MAIN CONTACTO*/ 
+
+ 
+#exampleDataList{
+    width:50%;  
+}
+.mapaContacto{
+    width:50%;   
+}
+
+/*  PORQUE ORGANIC JUICES   */
+   
+   
+   .img3{
+    width:600px;
+    height:600px;
+    object-fit: cover ;
+}
