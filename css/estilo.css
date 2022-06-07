@@ -3,23 +3,24 @@
   padding: 0;
   box-sizing: border-box; }
 
-.container-fluid {
-  background-color: #cce5da;
+/* MAPS*/
+.container-fluid, .navbar {
+  background-color: #7eb795;
   width: 100; }
-  .container-fluid .navbar {
+  .container-fluid .navbar, .navbar .navbar {
     width: 100;
     font-size: 1.5rem;
-    background-color: #cce5da; }
-    .container-fluid .navbar:hover {
+    background-color: #7eb795; }
+    .container-fluid .navbar:hover, .navbar .navbar:hover {
       background-color: black; }
-    .container-fluid .navbar .img-thumbnail {
+    .container-fluid .navbar .img-thumbnail, .navbar .navbar .img-thumbnail {
       width: 10rem;
       height: 10rem; }
-      .container-fluid .navbar .img-thumbnail .navbar-nav {
+      .container-fluid .navbar .img-thumbnail .navbar-nav, .navbar .navbar .img-thumbnail .navbar-nav {
         font-size: 1.5rem;
         margin: 5px;
         font-weight: bold; }
-        .container-fluid .navbar .img-thumbnail .navbar-nav:hover {
+        .container-fluid .navbar .img-thumbnail .navbar-nav:hover, .navbar .navbar .img-thumbnail .navbar-nav:hover {
           background-color: black; }
 
 /* ICONOS BLANCO Y NEGRO*/
@@ -33,16 +34,21 @@
 .h1 {
   display: flex;
   justify-content: center;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 /* PUBLICIDAD INDEX */
 .publicidadIndex {
   display: flex; }
-  .publicidadIndex .tituloPublicidad {
-    font-size: 2rem; }
-    .publicidadIndex .tituloPublicidad .detoxTexto {
+  .publicidadIndex .tituloPublicidad1 {
+    font-size: 1.5rem; }
+    .publicidadIndex .tituloPublicidad1 .detoxTexto1 {
       font-size: 1.5rem;
-      text-align: justify; }
+      text-align: center; }
+    .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 {
+      font-size: 1.5rem; }
+      .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 .detoxTexto2 {
+        font-size: 1.5rem;
+        text-align: center; }
 
 .card {
   width: 50%; }
@@ -54,9 +60,9 @@
       .card .card-img-top-fluid .card-body .card-title-index {
         font-size: 3rem; }
         .card .card-img-top-fluid .card-body .card-title-index .card-text-index {
-          font-size: 1.5rem; }
+          font-size: 2rem; }
           .card .card-img-top-fluid .card-body .card-title-index .card-text-index .btn {
-            align-items: center; }
+            justify-content: center; }
 
 .rounded {
   width: 20rem;
@@ -105,13 +111,13 @@
   height: 600px;
   object-fit: cover; }
 
-.navbar {
-  background-color: #cce5da;
-  width: 100; }
-  .navbar .container-fluid {
+.navbar .container-fluid, .navbar .navbar {
+  width: 100;
+  font-size: 1.5rem;
+  background-color: #7eb795; }
+  .navbar .container-fluid .logoFooter, .navbar .navbar .logoFooter {
+    width: 10rem;
+    height: 10rem;
     width: 100;
     font-size: 1.5rem;
-    background-color: #cce5da; }
-    .navbar .container-fluid .logoFooter {
-      width: 10rem;
-      height: 10rem; }
+    color: #cce5da; }

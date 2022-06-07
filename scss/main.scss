@@ -12,22 +12,31 @@
    .h1{
     display:flex;
     justify-content:center;
-    font-size: $titulo-fuente;
+    font-size: $tamanio-fuente;
     
 }
 
 /* PUBLICIDAD INDEX */ 
 .publicidadIndex{
   display: flex;
-  .tituloPublicidad{
-    font-size: $titulo-fuente;
-  ;
+  .tituloPublicidad1{
+    font-size: $tamanio-fuente;
+  
 
-   .detoxTexto{
+   .detoxTexto1{
       font-size: $tamanio-fuente;
-      text-align: justify;
+      text-align: center;
 
-    }              
+    } 
+    .tituloPublicidad2{
+        font-size: $tamanio-fuente;
+      
+    
+       .detoxTexto2{
+        font-size: $tamanio-fuente;
+        text-align: center;
+        }              
+    }           
 }
 
 }
@@ -46,10 +55,10 @@
            font-size: 3rem;
         
           .card-text-index{
-              font-size: $tamanio-fuente;
+            font-size: 2rem;
         
          .btn{
-             align-items: center;
+            justify-content: center;
           
                
 } 
@@ -74,9 +83,9 @@
   .card-title{
     margin: 5px;
     padding:5px;
-    font-size: 2rem;
+    font-size:map-get($fuente,titulo);
     .card-text{
-        font-size: 1.5rem;
+      font-size: map-get($fuente,texto);
         line-height: 1cm;
         text-align: justify;
     

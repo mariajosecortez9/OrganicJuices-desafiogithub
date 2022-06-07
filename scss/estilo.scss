@@ -5,10 +5,11 @@
     box-sizing: border-box;
    }
    
-  @import "_variables";
-  @import "_header";
-  @import "_main";
-  @import "_footer";
+  @import "variables";
+  @import "header";
+  @import "mixins";
+  @import "main";
+  @import "footer";
 
 
 

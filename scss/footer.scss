@@ -1,6 +1,5 @@
 .navbar{
-    background-color: rgb(204, 229, 218);
-    width: $ancho-100;
+   @extend.container-fluid;
        .container-fluid{
         width: $ancho-100;
         font-size: $tamanio-fuente;
@@ -8,7 +7,7 @@
         .logoFooter{
             width:10rem;
             height:10rem;
-       
+    @include headerFooter($fuentes-grosor,bold)  
     }
     } 
    }
