@@ -39,16 +39,11 @@
 /* PUBLICIDAD INDEX */
 .publicidadIndex {
   display: flex; }
-  .publicidadIndex .tituloPublicidad1 {
+  .publicidadIndex .tituloPublicidad1, .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 {
     font-size: 1.5rem; }
-    .publicidadIndex .tituloPublicidad1 .detoxTexto1 {
+    .publicidadIndex .tituloPublicidad1 .detoxTexto1, .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 .detoxTexto2 {
       font-size: 1.5rem;
       text-align: center; }
-    .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 {
-      font-size: 1.5rem; }
-      .publicidadIndex .tituloPublicidad1 .tituloPublicidad2 .detoxTexto2 {
-        font-size: 1.5rem;
-        text-align: center; }
 
 .card {
   width: 50%; }
@@ -81,6 +76,13 @@
     text-align: justify; }
 
 /* MAIN PRODUCTOS*/
+.tituloNuestrosProductos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .tituloNuestrosProductos .limpieza {
+    justify-content: center; }
+
 .img-productos {
   width: 20%;
   height: 20%;

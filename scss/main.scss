@@ -29,12 +29,11 @@
 
     } 
     .tituloPublicidad2{
-        font-size: $tamanio-fuente;
+      @extend.tituloPublicidad1;
       
     
        .detoxTexto2{
-        font-size: $tamanio-fuente;
-        text-align: center;
+       @extend.detoxTexto1;
         }              
     }           
 }
@@ -97,7 +96,15 @@
 
  /* MAIN PRODUCTOS*/ 
 
- 
+ .tituloNuestrosProductos{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ .limpieza{ justify-content: center;
+
+  }
+
+ }
  .img-productos{
     width:20%;
     height:20%;
