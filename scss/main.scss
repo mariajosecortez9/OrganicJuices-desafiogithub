@@ -58,6 +58,7 @@
         
          .btn{
             justify-content: center;
+         
           
                
 } 
@@ -114,6 +115,10 @@
    
 }
 
+.imgProductos{
+  object-fit: cover;
+}
+
 /* MAIN GALERIA*/ 
     
 .img-fluid{
@@ -128,7 +133,11 @@
  
 /* MAIN CONTACTO*/ 
 
+.formularioContacto{
+ justify-content: center;
+ width: 50%;
  
+}
 #exampleDataList{
     width:50%;  
 }

@@ -7,10 +7,30 @@
         .logoFooter{
             width:10rem;
             height:10rem;
-    @include headerFooter($fuentes-grosor,bold)  
+    
+    @include headerFooter($fuentes-grosor,bold);
+    
        
     }
     } 
-   
    }
-  
+   .iconoFooter{
+    display: inline-block;
+    margin-left: 2%;
+    animation: float 4s ease-in-out infinite;
+}  
+ @keyframes float{
+    0%{ transform: translateY(0);}
+    50%{ transform: translateY(-20px);}
+    100%{transform: translateY(0);}
+ }
+
+ .whatsapp{
+    animation-delay: 0.5s;
+ }
+ .instagram{
+    animation-delay: 1s;
+ }
+ .twitter{
+    animation-delay: 2s;
+ }
